@@ -1,0 +1,35 @@
+
+.container div {
+    width: 350px;
+    height: 233px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+.bigger {
+  display: none;
+  border-radius: 8px;
+}
+
+
+  
+  @media (min-width: 600px) {
+    .container .item1 { height: 200px; }
+    .container .item2 { height: 500px; }
+    .container .item4 { height: 400px; }
+    .container .item6 { height: 300px; }
+    .container .item11 { height: 200px; }
+
+    .bigger {
+      display: block;
+    }
+
+    .smaller {
+      display: none;
+    }
+  }
+
+  
