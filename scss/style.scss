@@ -7,10 +7,18 @@
 
 // Layout
 @import
-    'layout/header';
+    'layout/header',
+    'layout/main',
+    'layout/footer';
 
 // Components
 @import
     'components/overlay',
     'components/grid',
     'components/hamburger';
+
+// Pages
+@import
+    'pages/index',
+    'pages/about',
+    'pages/project-pages';

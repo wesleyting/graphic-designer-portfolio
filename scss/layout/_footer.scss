@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 1rem 3rem;
+
+    .footer-copyright {
+        order: 2;
+        text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .social-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

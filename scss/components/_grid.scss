@@ -1,35 +1,66 @@
 
-.container div {
-    width: 400px;
-    height: 233px;
-    background-color: antiquewhite;
+.masonry-grid div {
+    width: 359px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
   }
 
-.bigger {
-  display: none;
-  border-radius: 8px;
+
+.item1 {
+  background-image: url("../images/previews/small/example-1-small.png");
 }
-
-
+.item2 {
+  background-image: url("../images/previews/small/example-2-small.png");
+}
+.item3 {
+  background-image: url("../images/previews/small/example-3-small.png");
+}
+.item4 {
+  background-image: url("../images/previews/small/example-4-small.png");
+}
+.item5 {
+  background-image: url("../images/previews/small/example-5-small.png");
+}
+.item6 {
+  background-image: url("../images/previews/small/example-6-small.png");
+}
+.item7 {
+  background-image: url("../images/previews/small/example-7-small.png");
+}
   
   @media (min-width: 600px) {
-    .container .item1 { height: 200px; }
-    .container .item2 { height: 500px; }
-    .container .item4 { height: 400px; }
-    .container .item6 { height: 300px; }
-    .container .item11 { height: 200px; }
+    .masonry-grid .item2 { height: 300px; }
+    .masonry-grid .item1 { height: 400px; }
+    .masonry-grid .item3 { height: 500px; }
+    .masonry-grid .item4 { height: 400px; }
+    .masonry-grid .item5 { height: 600px; }
+    .masonry-grid .item6 { height: 500px; }
+    .masonry-grid .item7 { height: 270px; }
 
-    .bigger {
-      display: block;
+    .item1 {
+      background-image: url("../images/previews/large/example-1-large.png");
     }
-
-    .smaller {
-      display: none;
+    .item2 {
+      background-image: url("../images/previews/large/example-2-large.png");
     }
-  }
+    .item3 {
+      background-image: url("../images/previews/large/example-3-large.png");
+    }
+    .item4 {
+      background-image: url("../images/previews/large/example-4-large.png");
+    }
+    .item5 {
+      background-image: url("../images/previews/large/example-5-large.png");
+    }
+    .item6 {
+      background-image: url("../images/previews/large/example-6-large.png");
+    }
+    .item7 {
+      background-image: url("../images/previews/large/example-7-large.png");
+    }
+}
 
   

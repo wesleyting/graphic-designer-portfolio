@@ -3,14 +3,79 @@
 // -----------------------------------------------------------------------------
 
 
-header {
+.top-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
 
-    .top-bar img {
-        height: 50px;
+.left-logo {
+    img {
+        width: 80px;
+    }
+}
+
+.right-hamburger {
+    margin-top: 0.5rem;
+}
+
+// Overlay Nav
+.overlay {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100; 
+    margin: auto;
+    backdrop-filter: blur(3px);
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+
+    .show & {
+        display: block;
+        opacity: 1;
+        pointer-events: visible;
     }
 
-    .top-bar {
-        display: flex;
+    li {
+        list-style-type: none;
+        font-size: 48px;
+        line-height: 2.5;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+        line-height: 5rem;
+    }
+
+    .show & {
+        display: block;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 12%;
+        left: 5%;
+        font-size: 1.8rem;
+    }
+
+}
+
+
+// Desktop Nav
+.nav-list {
+    display: none;
+
+    li {
+        list-style-type: none;
+        font-weight: bold;
     }
 
 }
