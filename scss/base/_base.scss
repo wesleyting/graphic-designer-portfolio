@@ -11,10 +11,15 @@ img {
   }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1236px;
   margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  // padding-left: 1rem;
+  // padding-right: 1rem;
+
+  @media (min-width: 800px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 

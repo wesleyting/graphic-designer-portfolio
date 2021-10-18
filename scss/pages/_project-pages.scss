@@ -1,0 +1,222 @@
+// All Project Pages
+
+.project-wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1500px;
+
+    @media (min-width: 550px) {
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 800px) {
+        font-size: 1.2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    @media (min-width: 1000px) {
+        font-size: 1.3rem;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 1.4rem;
+    }
+
+}
+
+.hero-banner {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    @media (min-width: 650px) {
+        height: 400px;
+    }
+
+    @media (min-width: 750px) {
+        height: 500px;
+    }
+
+    @media (min-width: 1000px) {
+        height: 600px;
+    }
+
+    @media (min-width: 1200px) {
+        height: 700px;
+        margin-left: -5rem;
+        margin-right: -5rem;
+    }
+}
+
+.banner-margin {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: 2rem;
+
+    @media (min-width: 800px) {
+        margin-left: -4rem;
+        margin-right: -4rem;
+    }
+}
+
+.fullsize-banner {
+    img {
+        display: block;
+    }
+}
+
+.project-summary {
+
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    width: 80%;
+
+    p {
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+
+        @media (min-width: 550px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (min-width: 600px) {
+        display: block;
+        width: 60%;
+    }
+
+    .project-type {
+        @media (min-width: 600px) {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.project-summary-paragraph {
+    margin-bottom: 2rem;
+
+    p:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width: 600px) {
+        width: 100%;
+        margin-top: 0.3rem;
+    }
+}
+
+.project-paragraph {
+    margin-bottom: 3rem;
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+
+
+
+    p {
+        margin-bottom: 0.8rem;
+        margin-left: auto;
+        margin-right: 0;
+
+        @media (min-width: 600px) {
+            width: 100%;
+        }
+    }
+
+
+}
+
+.project-summary-and-paragraph {
+
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media (min-width: 600px) {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    @media (min-width: 900px) {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    
+
+}
+
+.project-banner {
+    display: block;
+    margin: 0 auto;
+}
+
+.border-test {
+    box-shadow: 0px 4px 200px 10px rgba(76, 142, 219, 0.16);
+    width: 90%;
+    max-width: 800px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+// Hippo
+.hero-banner-hippo {
+    background-image: url("../images/hippo/banner.png");
+}
+
+// 5oclock
+.hero-banner-5oclock {
+    background-image: url("../images/5oclock/banner.png");
+}
+
+.split-banner {
+
+    display: flex;
+
+    img {
+        display: block;
+        width: 50%;
+    }
+
+}
+
+.split-banner-custom {
+
+    img:nth-child(1) {
+        width: 70%;
+    }
+
+    img:nth-child(2) {
+        width: 30%;
+    }
+
+}
+
+
+// Sunnydale
+
+.hero-banner-sunnydale {
+    background-image: url("../images/sunnydale/banner.png");
+}
+
+.split-banner-custom-sunnydale {
+
+    img:nth-child(1) {
+        width: 60%;
+    }
+
+    img:nth-child(2) {
+        width: 40%;
+    }
+
+}

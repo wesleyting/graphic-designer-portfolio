@@ -1,11 +1,25 @@
+.masonry-grid {
+  margin: 0 auto;
+  max-width: 1400px;
+}
 
-.masonry-grid div {
-    width: 359px;
-    height: 300px;
+.masonry-grid .grid-item {
+    width: 90%;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: 800px) {
+      width: 45%;
+    }
+
+    @media (min-width: 1200px) {
+      width: 30%;
+    }
   }
 
 
@@ -31,7 +45,7 @@
   background-image: url("../images/previews/small/example-7-small.png");
 }
   
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     .masonry-grid .item2 { height: 300px; }
     .masonry-grid .item1 { height: 400px; }
     .masonry-grid .item3 { height: 500px; }
@@ -40,27 +54,43 @@
     .masonry-grid .item6 { height: 500px; }
     .masonry-grid .item7 { height: 270px; }
 
-    .item1 {
-      background-image: url("../images/previews/large/example-1-large.png");
-    }
-    .item2 {
-      background-image: url("../images/previews/large/example-2-large.png");
-    }
-    .item3 {
-      background-image: url("../images/previews/large/example-3-large.png");
-    }
-    .item4 {
-      background-image: url("../images/previews/large/example-4-large.png");
-    }
-    .item5 {
-      background-image: url("../images/previews/large/example-5-large.png");
-    }
-    .item6 {
-      background-image: url("../images/previews/large/example-6-large.png");
-    }
-    .item7 {
-      background-image: url("../images/previews/large/example-7-large.png");
-    }
 }
 
-  
+
+.work-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.486);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+
+  .work-title, .work-description {
+    color: white;
+    text-align: center;
+  }
+
+  .work-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .work-description {
+    font-size: 1.5rem;
+  } 
+
+  &:hover {
+    opacity: 1;
+  }
+}

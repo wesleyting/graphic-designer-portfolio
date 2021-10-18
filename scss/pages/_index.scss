@@ -1,18 +1,49 @@
 .introduction {
-    margin: 2rem 0.3rem;
+    margin: 0rem auto 3rem;
+    width: 90%;
+
+    @media (min-width: 800px) {
+        width: 95%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 96%;
+    }
 
     h1 {
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+
+        @media (min-width: 500px) {
+            font-size: 1.5rem;
+        }
+
+        @media (min-width: 600px) {
+            font-size: 1.8rem;
+        }
+
+        @media (min-width: 700px) {
+            font-size: 2.2rem;
+        }
+
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+
+        @media (min-width: 500px) {
+            font-size: 1.3rem;
+        }
+
+        @media (min-width: 700px) {
+            font-size: 1.5rem;
+        }
+
+
     }
 
-    @media screen {
-        
-    }
+
 
 }
 
