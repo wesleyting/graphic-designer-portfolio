@@ -33,16 +33,19 @@
   background-image: url("../images/previews/small/example-3-small.png");
 }
 .item4 {
-  background-image: url("../images/previews/small/example-4-small.png");
-}
-.item5 {
+  // background-image: url("../images/previews/small/example-4-small.png");
   background-image: url("../images/previews/small/example-5-small.png");
 }
+.item5 {
+  background-color: gray;
+}
 .item6 {
-  background-image: url("../images/previews/small/example-6-small.png");
+  // background-image: url("../images/previews/small/example-6-small.png");
+  background-color: gray;
 }
 .item7 {
-  background-image: url("../images/previews/small/example-7-small.png");
+  // background-image: url("../images/previews/small/example-7-small.png");
+  background-color: gray;
 }
   
   @media (min-width: 800px) {
