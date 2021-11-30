@@ -7,38 +7,29 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: 1.2rem;
     height: 32px;
-    margin-bottom: 3rem;
+    padding-top: 1.2rem;
+    margin-bottom: 4rem;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 
     @media (min-width: 800px) {
-        width: 95%;
+        width: calc(100% - 30px);
     }
 
     @media (min-width: 1200px) {
-        width: 96%;
-    }
-
-
-    // @media (min-width: 900px) {
-    //     margin-left: -3rem;
-    //     margin-right: -3rem;
-    // }
+        width: calc(100% - 40px);
+      }
 }
 
 .left-logo {
     img {
+        width: 38px;
         display: block;
-        width: 65px;
-        height: 32px;
     }
 
-    @media (min-width: 900px) {
-        margin-top: 8px;
-    }
+
 }
 
 .right-hamburger {
@@ -141,7 +132,7 @@
         height: 3px;
         left: 0%;
         position: absolute;
-        background: black;
+        background: gray;
         transition: width 0.3s ease 0s, left 0.3s ease 0.2s;
         width: 0;
     }
@@ -156,6 +147,7 @@
         a:after {
             width: 100%; 
             left: 0; 
+            background: black;
         }
 
     }

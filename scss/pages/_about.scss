@@ -1,38 +1,27 @@
 .intro-image {
 
-
-    width: 300px;
-    height: 300px;
+    width: 30%;
     display: block;
-    margin: 6rem auto 2rem;
-    border-radius: 50%;
-    background-color: gray;
+    margin: 3rem auto 3rem;
 
-
+    @media (min-width: 1200px) {
+    }
 }
 
 .about-intro, .about-information {
-    max-width: 400px;
+    width: 90%;
     display: block;
     margin: 0 auto;
     line-height: 1.6;
 
-    @media (min-width: 550px) {
-        font-size: 1.2rem;
-        max-width: 450px;
+    @media (min-width: 800px) {
+        width: calc(100% - 30px);
     }
 
-    @media (min-width: 600px) {
-        font-size: 1.3rem;
-        max-width: 490px;
-    }
+    @media (min-width: 1200px) {
+        width: calc(100% - 40px);
+      }
 
-    @media (min-width:800px) {
-        font-size: 1.2rem;
-        max-width: 100%;
-        margin: 0;
-        max-width: 500px;
-    }
 
 
 
@@ -43,6 +32,14 @@
 
     p {
         margin-bottom: 2rem;
+        font-weight: 600;
+
+        @media (min-width:550px) {
+            font-size: 1.2rem;
+        }
+        @media (min-width:650px) {
+            font-size: 1.4rem;
+        }
 
         @media (min-width:800px) {
             margin-bottom: 2.5rem;
@@ -61,8 +58,25 @@
     p {
         margin-bottom: 1.3rem;
 
-        @media (min-width:800px) {
+
+
+        @media (min-width:550px) {
+            font-size: 1.2rem;
+        }
+        // @media (min-width:650px) {
+        //     font-size: 1.3rem;
+        // }
+
+        @media (min-width:850px) {
             margin-bottom: 1.6rem;
+            font-size: 1.1rem;
+        }
+
+        @media (min-width:1000px) {
+            font-size: 1.2rem;
+        }
+        @media (min-width:1200px) {
+            font-size: 1.35rem;
         }
     }
 
@@ -70,9 +84,9 @@
 
 
 .about-main {
-    max-width: 900px;
+    // max-width: 900px;
     margin: 4rem auto 0;
-    @media (min-width:800px) {
+    @media (min-width:850px) {
         display: flex;
     }
 }
@@ -80,13 +94,13 @@
 
 .about-left{
 
-    @media (min-width:800px) {
-        width: 65%;
+    @media (min-width:850px) {
+        width: 60%;
     }
 
     img {
-        @media (min-width:800px) {
-            display: none
+        @media (min-width:850px) {
+            display: none;
         }
     }
 
@@ -96,16 +110,18 @@
     display: none;
     position: relative;
 
-    @media (min-width:800px) {
+    @media (min-width:850px) {
         display:block;
-        width: 30%;
+        width: 40%;
+
+        img {
+            width: 250px;
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+            margin-right: 3rem;
+        }
     }
 
-    img {
-        position: absolute;
-        max-width: 250px;
-        left: 25%;
-        top: 50%;
-        transform: translate(0, -50%);
-    }
+
 }

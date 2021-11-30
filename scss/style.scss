@@ -16,10 +16,15 @@
 @import
     'components/overlay',
     'components/grid',
+    'components/lightbox',
+    'components/slideshow',
+    'components/scrollable-laptop',
     'components/hamburger';
 
 // Pages
 @import
     'pages/index',
     'pages/about',
-    'pages/project-pages';
+    'pages/project-pages',
+    'pages/logofolio',
+    'pages/illustrafolio';
