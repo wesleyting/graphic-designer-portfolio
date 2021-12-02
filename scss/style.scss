@@ -14,17 +14,19 @@
 
 // Components
 @import
-    'components/overlay',
-    'components/grid',
     'components/lightbox',
     'components/slideshow',
-    'components/scrollable-laptop',
     'components/hamburger';
 
 // Pages
 @import
-    'pages/index',
+    'pages/5oclock',
     'pages/about',
-    'pages/project-pages',
+    'pages/coco',
+    'pages/hippo',
+    'pages/illustrafolio',
+    'pages/index',
     'pages/logofolio',
-    'pages/illustrafolio';
+    'pages/project-pages',
+    'pages/sunnydale',
+    'pages/tokenstudio';

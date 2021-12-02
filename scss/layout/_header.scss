@@ -2,13 +2,11 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-
 .top-bar {
     position: relative;
     display: flex;
     justify-content: space-between;
     height: 32px;
-    padding-top: 1.2rem;
     margin-bottom: 4rem;
     width: 90%;
     margin-left: auto;
@@ -25,15 +23,14 @@
 
 .left-logo {
     img {
-        width: 38px;
+        margin-top: 20px;
+        width: 100%;
         display: block;
     }
-
-
 }
 
 .right-hamburger {
-    margin-top: 3px;
+    margin-top: 28px;
 
     @media (min-width: 900px) {
         margin-top: 0;
@@ -89,7 +86,6 @@
 
 }
 
-
 // Desktop Nav
 .right-hamburger {
     @media (min-width: 900px) {
@@ -110,7 +106,15 @@
         display: flex;
         justify-content: space-between;
         @media (min-width: 900px) {
-            margin-top: 0;
+            margin-top: 1.4rem;
+        }
+
+        a {
+            color: black;
+
+            &:hover {
+                color: black;
+            }
         }
     }
 

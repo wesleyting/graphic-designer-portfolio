@@ -84,18 +84,22 @@
 
 
 .about-main {
-    // max-width: 900px;
-    margin: 4rem auto 0;
-    @media (min-width:850px) {
+    margin-top: 4rem;
+
+    @media (min-width: 850px) {
+        margin-top: 6rem;
+    }
+    @media (min-width: 850px) {
         display: flex;
     }
 }
 
 
+
 .about-left{
 
     @media (min-width:850px) {
-        width: 60%;
+        width: 58%;
     }
 
     img {
@@ -115,13 +119,11 @@
         width: 40%;
 
         img {
-            width: 250px;
             display: block;
-            margin: auto;
+            width: 250px;
             margin-top: 50px;
             margin-right: 3rem;
+            margin-left: 8rem;
         }
     }
-
-
 }

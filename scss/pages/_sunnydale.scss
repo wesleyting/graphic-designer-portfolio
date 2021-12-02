@@ -1,0 +1,16 @@
+// Sunnydale
+.hero-banner-sunnydale {
+    background-image: url("../images/sunnydale/banner.jpg");
+}
+
+.split-banner-custom-sunnydale {
+
+    img:nth-child(1) {
+        width: 60%;
+    }
+
+    img:nth-child(2) {
+        width: 40%;
+    }
+
+}

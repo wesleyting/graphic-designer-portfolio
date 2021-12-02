@@ -1,0 +1,50 @@
+// 5oclock
+.hero-banner-5oclock {
+    background-image: url("../images/5oclock/banner.jpg");
+}
+
+.split-banner {
+
+    display: flex;
+
+    img {
+        display: block;
+        width: 50%;
+    }
+}
+
+.split-banner-mobile {
+    font-size: 0;
+    
+    @media (min-width: 800px) {
+        display: flex;
+
+        img {
+            display: block;
+            width: 50%;
+        }
+    } 
+}
+
+.split-banner-3 {
+
+    display: flex; 
+
+    img {
+        display: block;
+        width: 33%;
+    }
+
+}
+
+.split-banner-custom {
+
+    img:nth-child(1) {
+        width: 70%;
+    }
+
+    img:nth-child(2) {
+        width: 30%;
+    }
+
+}

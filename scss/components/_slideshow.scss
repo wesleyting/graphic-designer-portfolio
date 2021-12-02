@@ -11,6 +11,7 @@
   }
 
   .prev, .next {
+    z-index: 100;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -59,7 +60,5 @@
     padding-top: 7rem;
     padding-bottom: 5rem;
     position: relative;
-
-
 }
   
